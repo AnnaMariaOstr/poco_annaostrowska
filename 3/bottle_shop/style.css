@@ -1,0 +1,162 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  a {
+    text-decoration: none;
+    color:orange;
+  }
+  h1 {
+  font-size: 3rem;
+   }
+  
+  h2 {
+    text-align:center;
+    margin-left: 1em;
+  }
+  h3 {
+    text-align:left;
+    padding-left: 40px;
+  }
+  img {
+    height: 300px;
+  }
+  
+  p {
+    padding-bottom: 20px;
+  
+  }
+    li { 
+      list-style-type: none;
+  }
+  
+  /* .lang { */
+    
+  
+  .topmenu {
+    display:flex;
+    flex-flow: nowrap;
+    flex-direction: row;
+    justify-content:center ;
+    align-items: center;
+  }
+  .topmenu ul{
+    display: flex;
+    flex-flow: nowrap;
+    flex-direction: row;
+    
+  }
+  nav li {
+    margin:0 20px 0 20px;
+  }
+  
+  header {
+  background: gray;
+  text-align: center;
+  padding: 100px;
+  }  
+    
+  header a {
+    border:solid orange;
+    background-color: white;
+    margin: 10px;
+    padding: 8px;
+  }
+  section{
+    border: 1px solid red;
+  }
+  section ul{
+    display:flex;
+    flex-flow: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: space-between;
+  }
+  section li {
+    margin:0 20px 0 20px;
+    
+  }
+  article{
+    border:2px solid blueviolet;
+  }
+  article ul {
+    display: flex;
+    flex-flow: nowrap;
+    flex-direction: row;
+    justify-content:space-around ;
+  }
+    /*article img {
+    height: 300px;
+  }*/
+  /* article img {
+    width: 250px;
+    margin:10px;*/
+    
+  article li {
+    order:2 ;
+  }
+  article a {
+    display:flex;
+    flex-direction: column-reverse;
+  }
+  
+  aside {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    border:2px solid yellow;
+   
+  }
+  aside a {
+    position: relative;
+  }
+  .textblock{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color:orange;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  aside ul{
+    display: flex;
+    flex-flow: nowrap;
+    flex-direction: row;
+    justify-content:space-around;
+  }
+  aside li {
+    flex:50%;
+  }
+    
+  
+ aside img {
+    margin:20px;
+    width:500px;
+    height:500px;
+    opacity: 50%;
+  }
+
+
+  footer{
+    background-color: grey;
+    display:flex;
+    flex-flow: nowrap;
+    flex-direction: row;
+    justify-content:center ;
+    align-items: center;
+  }
+  footer nav{
+    background-color:greenyellow;
+    display:flex;
+    flex-flow: nowrap;
+    flex-direction: row;
+  }
+     
+  .visuallyhidden{
+    display:none;
+  }
+
+  
+ 

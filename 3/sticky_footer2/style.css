@@ -1,16 +1,17 @@
-body {
+body { 
     background-color: red;
-    display: flex;
+   display: flex;
     min-height: 100vh;
-    flex-direction: column;   
+    flex-direction: column;  
       
 }
 
-main {
+main {/
     flex-grow: 1;
 }
 footer {
-    
+    position: sticky;
+    bottom: 0;
     background-color: blue;
-    
+    margin:10px;
 }
