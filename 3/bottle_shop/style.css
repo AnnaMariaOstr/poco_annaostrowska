@@ -14,6 +14,7 @@ html {
   h2 {
     text-align:center;
     margin-left: 1em;
+  
   }
   h3 {
     text-align:left;
@@ -30,10 +31,7 @@ html {
     li { 
       list-style-type: none;
   }
-  
-  /* .lang { */
-    
-  
+     
   .topmenu {
     display:flex;
     flex-flow: nowrap;
@@ -52,7 +50,7 @@ html {
   }
   
   header {
-  background: gray;
+  background: yellow;
   text-align: center;
   padding: 100px;
   }  
@@ -104,8 +102,9 @@ html {
   aside {
     display: flex;
     flex-direction:row;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     border:2px solid yellow;
+    
    
   }
   aside a {
@@ -132,7 +131,7 @@ html {
     
   
  aside img {
-    margin:20px;
+   margin:20px;
     width:500px;
     height:500px;
     opacity: 50%;
