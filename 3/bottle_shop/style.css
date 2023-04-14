@@ -50,7 +50,7 @@ html {
   }
   
   header {
-  background: yellow;
+  
   text-align: center;
   padding: 100px;
   }  
@@ -138,7 +138,7 @@ html {
   }
 
 
-  footer{
+   footer{
     background-color: grey;
     display:flex;
     flex-flow: nowrap;
@@ -150,9 +150,27 @@ html {
     background-color:greenyellow;
     display:flex;
     flex-flow: nowrap;
-    flex-direction: row;
-  }
+    flex-direction: row; 
+  } 
      
+
+ /* footer nav {
+    display: grid;
+      grid-template-columns:1fr 1fr 1fr 100px;
+      grid-template-rows: repeat(4, 1fr);
+      grid-column-gap: 0px;
+      grid-row-gap: 0px;
+      }
+      
+  footer nav h3 {
+    grid-area: 1 / 1 / 5 / 4; 
+  }
+
+     
+  footer ul {
+     grid-area: 1 / 1 / 5 / 4; 
+  } */
+
   .visuallyhidden{
     display:none;
   }

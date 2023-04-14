@@ -1,0 +1,24 @@
+2. Counting the number of characters
+Create a program that prompts for an input string and displays output that shows the input string and the number of characters the string contains.
+
+
+inputs:
+inputtext
+
+process:
+countcharacters
+
+output:
+inputtext + countcharacters
+
+
+
+Process
+1. Ask users to type any sentence in inputfield
+2. Check inputs values against contraints ( )
+
+2.a. Continue to step 3
+2.b. Print error message and go back to step 1
+3. count number of characters
+4. print inputtext + countcharacters
+
