@@ -53,6 +53,8 @@ html {
   
   text-align: center;
   padding: 100px;
+  background-image: url('img/waterdrops.jpg');
+  background-size: 1000px;
   }  
     
   header a {
