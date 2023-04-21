@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        prompt ("please enter nr");
+        let number1 = +prompt("please enter nr");
+        let number2 = +prompt("please enter nr");
+        let operator = prompt("please enter operators + - * / %");
+        let result;
+
+        if(isNaN(number1)|| isNaN(number2)){
+            alert("this is not valid number.please try again");
+
+        }
+         
+        // if (operator==="+"){
+        //     result = number1+number2;
+        // } else if (operator==="-"){
+        //    result = number1-number2;
+        // } else if (operator==="*"){
+        //     result = number1*number2;
+        // } else if (operator==="/"){
+        //     result = number1/number2;
+        // } else if (operator==="%"){
+        //     result = number1%number2;
+        // } else{
+        //     alert("tis is not allowed operator try again")
+        // }
+
+        switch(operator){
+            case "+": 
+            result = number1+number2;
+                break;
+            case "-": 
+            result = number1+number2;
+                break;
+            case "*": 
+            result = number1+number2;
+                break;
+            case "/": 
+            result = number1+number2;
+                break;
+            case "%": 
+            result = number1+number2;
+                break;
+            default:
+                alert("error");
+        }
+         if(result ){
+            alert(`${number1} ${operator} ${number2} is ${result.}`);
+         }
+            
+    </script>
+</body>
+</html>
