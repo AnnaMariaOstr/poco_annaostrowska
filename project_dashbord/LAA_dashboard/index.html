@@ -14,7 +14,7 @@
                 <li>
                     <a href="#">
                         <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
-                        <span class="title">made by Anna</span>
+                        <span class="title">Data source</span> 
                     </a>
                 </li>
                 <li>
@@ -50,8 +50,8 @@
             <div class="cardBox">
                 <div class="card">
                     <div>
-                        <div class="numbers">1,504</div>
-                        <div class="cardname">Residents</div>
+                        <div class="numbers">8039</div>
+                        <div class="cardname">Residents 2022</div>
                     </div>
                         <div class="iconBox">
                         <ion-icon name="people-outline"></ion-icon>
@@ -59,8 +59,8 @@
                 </div>
                 <div class="card">
                     <div>
-                        <div class="numbers">2%</div>
-                        <div class="cardname">Newcommers</div>
+                        <div class="numbers">62 = 0.8%</div>
+                        <div class="cardname">Newcommers 2022</div>
                     </div>
                         <div class="iconBox">
                         <ion-icon name="trending-up-outline"></ion-icon>
@@ -68,24 +68,39 @@
                 </div>
                 <div class="card">
                     <div>
-                        <div class="numbers">1%</div>
-                        <div class="cardname">Move out</div>
+                        <div class="numbers">539 = 7.2%</div>
+                        <div class="cardname">Newcomers last 5Y</div>
                     </div>
                         <div class="iconBox">
-                         <ion-icon name="trending-down-outline"></ion-icon>
+                         <ion-icon name="trending-up-outline"></ion-icon>
                         </div>
                 </div>
-            
             </div>
+    <!--Add Charts-->
+    <div class="graphBox1">
+        <div class="box">
+            <canvas id="population" width="400" height="100" ></canvas>
+        </div>
+    </div>
+    <div class="graphBox">
+        <div class="box">
+            <canvas id="gender" width="300" height="80"></canvas>
+        </div>
+        <div class="box">
+            <canvas id="age" width="300" height="80"></canvas>
+        </div>
+    </div>
+    <div class="graphBox">
+        <div class="box">
+            <canvas id="religion" width="300" height="80"></canvas>
+        </div>
+        <div class="box">
+            <canvas id="nationality" width="300" height="80"></canvas>
         </div>
     </div>
 
-
-
-
-
-
-
+        </div>
+    </div>
 
     <!-- <h1>Langnau am Albis portrait</h1>
     <ul>
@@ -107,15 +122,12 @@
     </ul> -->
 
 
-
-
-
-
 <!--icons-->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 <!--charts.js-->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
     <script src="main.js"></script>
 </body>
 </html>
