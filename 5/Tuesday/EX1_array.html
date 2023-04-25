@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<h2>Array exercise 1</h2>
+<ol>
+    <li>Access and output Oranges.</li><p id="ex1"></p>
+    <li>Remove the Banana from the array.</li> <p id="ex2"></p>
+    <li>Sort the array in order.</li><p id="ex3"></p>
+    <li>Put "Kiwi" at the end of the array.</li><p id="ex4"></p>
+    <li>Remove "Apples" from the array.</li><p id="ex5"></p>
+    <li>Sort the array in reverse order, i.e. ['a', 'c', 'b'] becomes ['b', 'c', 'a']</li><p id="ex6"></p>
+</ol>
+
+<script>
+
+let array = ["Banana", "Apples", "Oranges", "Blueberries"];
+document.getElementById("ex1").innerHTML = array[2];
+array.shift();
+document.getElementById("ex2").innerHTML = array;
+array.sort();
+document.getElementById("ex3").innerHTML = array;
+array.push("kiwi");
+document.getElementById("ex4").innerHTML = array;
+array.shift();
+document.getElementById("ex5").innerHTML = array;
+array.reverse();
+document.getElementById("ex6").innerHTML = array;
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<h2>Choices</h2>
+
+<p id="ex2"></p>
+
+<script>
+
+let city = ["Como", "Milan", "Paris"];
+let clen = city.length;
+
+
+let text = "<ul>";
+
+for(let i=0; i<clen; i++){
+    let priority = i+1;
+    text +="<li>"+"My" + priority + "choice is " + city[i] + "</li>";
+}
+
+text +="</ul>";
+
+document.getElementById("ex2").innerHTML = text;
+</script>
+
+</body>
+</html>
