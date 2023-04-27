@@ -5,6 +5,8 @@ function choices(array) {
         choicespriority  = i+1;
         console.log(`My # ${choicespriority} choice is ${array[i]}`);
         
+
+        if
     }
 }
 choices(city);
