@@ -1,0 +1,18 @@
+HTML:
+title =  to do
+input field  type text
+button = create 
+
+
+CSS:
+bakground picture
+center the whole page
+and give some additional styling
+
+JS:
+we need to mak e array to store to do
+
+onclick funcion that creates to do
+another on click that deletes our to do
+to get the value of our input field
+

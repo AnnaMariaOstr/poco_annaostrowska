@@ -1,0 +1,37 @@
+main{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+ justify-content: center;
+    
+}
+h2{
+    font-size: 2rem;
+    color: green;
+}
+.leftnav  {
+    border:solid 2px red;
+    
+    width:300px;
+    height:100%;
+
+}
+.blogarea{
+    border:solid 2px blue;
+    height:100%;
+    width: auto;
+    background-color: grey;
+}
+.rightnav{
+    border:solid 2px green;
+    width:300px;
+    height:100%;
+}
+.blogBox{
+    width:600px;
+    padding:10px 10px 10px 10px;
+    background-color: white;
+    border:solid 2px red;
+
+
+}

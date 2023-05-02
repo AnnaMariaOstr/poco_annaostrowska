@@ -1,13 +1,13 @@
 //todo: check for duplicates before adding new favorite
-​
+
 const list = document.querySelector("ul");
 const btn = document.querySelector("button");
 const input = document.querySelector("input");
 const body = document.body;
-​
+
 //btn.onclick = addFavorite;
 btn.addEventListener("click",addFavorite);
-​
+
 /*function(){
     if(input.value.length > 0){
         //create element li
@@ -18,7 +18,7 @@ btn.addEventListener("click",addFavorite);
         list.appendChild(li);
     }
 }*/
-​
+
 function addFavorite(){
     if(input.value.length > 0){
         if(isDuplicate()){
@@ -42,10 +42,10 @@ function addFavorite(){
         console.log("my value is empty. why?");
     }
 }
-​
+
 function isDuplicate(){
     let result = false;
-​
+
     //loop through list items and check if value is equal to our input value
     //find the list items, use forEach to find value of each item
     list.querySelectorAll("li").forEach(function(item){
@@ -53,6 +53,6 @@ function isDuplicate(){
             result = true;
         }
     });
-​
+
     return result;
 }
