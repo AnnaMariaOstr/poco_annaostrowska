@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Phone Number Validation</title>
+	<script>
+		function validatePhoneNumber(number) {
+			// remove all whitespace from the phone number
+			number = number.replace(/\s/g, '');
+			
+			// define the regular expression pattern
+			var pattern = /^\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}$/;
+			
+			// check if the phone number matches the pattern
+			if (pattern.test(number)) {
+				return true;
+			} else {
+				return false;
+			}
+		}
+		
+		function handleSubmit() {
+			// get the phone number from the input field
+			var phoneNumber = document.getElementById('phone-number').value;
+			
+			// validate the phone number
+			var valid = validatePhoneNumber(phoneNumber);
+			
+			// display the validation result
+			var resultElement = document.getElementById('result');
+			if (valid) {
+				resultElement.innerHTML = 'Phone number is valid!';
+			} else {
+				resultElement.innerHTML = 'Phone number is not valid.';
+			}
+			
+			// prevent the form from submitting
+			return false;
+		}
+	</script>
+</head>
+<body>
+	<h1>Phone Number Validation</h1>
+	<p>Please enter a valid phone number in one of the following formats:</p>
+	<ul>
+		<li>10 digits, e.g. 0797899236</li>
+		<li>With dashes, e.g. 079-879-9236</li>
+		<li>With spaces, e.g. 079 879 9236</li>
+		<li>With dots, e.g. 079.879.9236</li>
+		<li>With area code parenthesized, e.g. (079) 879 9236 (optional)</li>
+	</ul>
+	<form onsubmit="return handleSubmit()">
+		<label for="phone-number">Phone Number:</label>
+		<input type="text" id="phone-number" name="phone-number" required>
+		<button type="submit">Check</button>
+	</form>
+	<div id="result"></div>
+</body>
+</html>
