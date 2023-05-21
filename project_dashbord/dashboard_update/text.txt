@@ -10,3 +10,8 @@ js.CHarts
 
 data source
 https://www.zh.ch/de/steuern-finanzen/gemeindefinanzen/zahlen-gemeindefinanzen/gemeindefinanzportrait-hrm2.html
+
+icons
+https://ionic.io/ionicons
+tojason
+https://products.aspose.app/cells/conversion/excel-to-json

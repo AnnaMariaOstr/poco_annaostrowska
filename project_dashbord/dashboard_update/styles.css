@@ -22,7 +22,27 @@ a{
 }
 h1{
     position:relative;
+    padding: 20px;
 }
+.logo{
+    width: 100px;
+    height: 100px;
+}
+ .profile-pic {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+      
+}
+.profilepic{
+display:grid;
+place-items: center;
+}
+article{
+    padding-left: 20px;
+}
+
+
 body{
 min-height: 100vh;
 overflow-x:hidden;
@@ -32,6 +52,7 @@ overflow-x:hidden;
   width: 100%;
 
 }
+
 .navigation{
     position:fixed;
     width:300px;
@@ -58,11 +79,7 @@ overflow-x:hidden;
 .navigation ul li:hover{
    background: var(--white); 
 }
-/*.navigation ul li:nth-child(1){
-    margin-bottom: 40px;
-    pointer-events: none; 
 
-}*/
 .navigation ul li a {
   position:relative;
   display: flex;
@@ -96,31 +113,7 @@ text-align: start;
 white-space: nowrap;
 }
 
-/*curve outside
-.navigation ul li:hover a::before {
-content: '';
-position: absolute;
-right:0;
-top:-50px;
-width: 50px;
-height: 50px;
-background:transparent;
-border-radius: 50%;
-box-shadow: 35px 35px 0 10px var(--white);
-pointer-events: none;
-}
-.navigation ul li:hover a::after {
-    content: '';
-    position: absolute;
-    right:0;
-    bottom:-50px;
-    width: 50px;
-    height: 50px;
-    background:transparent;
-    border-radius: 50%;
-    box-shadow: 35px -35px 0 10px var(--white);
-    pointer-events: none;
-    }*/
+
 
     .main {
         position:absolute;
